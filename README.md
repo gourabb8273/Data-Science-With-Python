@@ -19,6 +19,7 @@ This repository contains code for deploying three machine learning models using 
    pip install sklearn or pip install scikit-learn
    pip install flask
    (use pip3 instead of pip for python 3 version)
+   Install [graphviz](https://graphviz.org/download/) to visualize the Decision Tree Plot
  
 ## Usage
 
@@ -43,7 +44,7 @@ The code for predicting heart attack risk using a Decision Tree model can be fou
    - The model is evaluated on the test dataset.
 
 5. **Save Model:**
-   - The trained Decision Tree model is saved as a pickle file `model.pkl` inside `DecisionTree` folder for future deployment.
+   - The trained Decision Tree model is saved as a pickle file `decision_tree_model.pkl` inside `DecisionTree` folder for future deployment.
    
 #### Execution
 
@@ -76,7 +77,7 @@ The code for predicting heart attack risk using a Decision Tree model can be fou
    - The model is evaluated on the test dataset.
 
 5. **Save Model:**
-   - The trained Decision Tree model is saved as a pickle file `model.pkl` inside `NaïveBayes` folder for future deployment.
+   - The trained Decision Tree model is saved as a pickle file `naive_bayes_model.pkl` inside `NaïveBayes` folder for future deployment.
    
 #### Execution
 
@@ -112,7 +113,7 @@ The code for predicting heart attack risk using a Decision Tree model can be fou
    - The model is evaluated on the test dataset.
 
 5. **Save Model:**
-   - The trained Decision Tree model is saved as a pickle file `model.pkl` inside `LinearRegression` folder for future deployment.
+   - The trained Decision Tree model is saved as a pickle file `linear_regression_model.pkl` inside `LinearRegression` folder for future deployment.
    
 #### Execution
 
