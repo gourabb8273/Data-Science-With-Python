@@ -8,7 +8,7 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 
 app = Flask(__name__)
-with open('model.pkl', 'rb') as f:
+with open('linear_regression_model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 @app.route("/insurance-charges", methods=["POST"])
