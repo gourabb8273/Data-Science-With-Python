@@ -1,6 +1,6 @@
 #  Creating an API which will predict the risk of heart attack using our Naive Bayes Model
 #  Endpoint - http://127.0.0.1:5000/heart-attack-risk Method - POST
-#  Payload Sample: {  "age": 43.0,"education": 1.0, "currentSmoker": 1.0, "cigsPerDay": 25.0, "BPMeds": 0.0, "prevalentStroke": 0.0, "prevalentHyp": 0.0, "diabetes": 0.0, "totCholesterol": 201.0, "sysBP": 121.0, "diaBP": 82.0, "BMI": 23.84, "heartRate": 70.0, "glucose": 91.0, "Gender_Male": 1.0 }
+#  Payload Sample: { Gender: 1.0, "age": 43.0,"education": 1.0, "currentSmoker": 1.0, "cigsPerDay": 25.0, "BPMeds": 0.0, "prevalentStroke": 0.0, "prevalentHyp": 0.0, "diabetes": 0.0, "totCholesterol": 201.0, "sysBP": 121.0, "diaBP": 82.0, "BMI": 23.84, "heartRate": 70.0, "glucose": 91.0 }
 #  Response Sample: 0
 
 import numpy as np

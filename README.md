@@ -18,6 +18,7 @@ This repository contains code for deploying three machine learning models using 
    pip install matplotlib
    pip install sklearn or pip install scikit-learn
    pip install flask
+   pip install pydotplus
    (use pip3 instead of pip for python 3 version)
    Install [graphviz](https://graphviz.org/download/) to visualize the Decision Tree Plot
  
