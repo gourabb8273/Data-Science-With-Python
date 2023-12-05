@@ -9,7 +9,7 @@ This repository contains code for deploying three machine learning models using 
 - Python: Ensure you have Python installed. If not, you can download it from [python.org](https://www.python.org/downloads/).
 
 1. **Clone the Repository:**
-   git clone hhttps://github.com/gourabb8273/Data-Science-With-Python.git
+   git clone https://github.com/gourabb8273/Data-Science-With-Python.git
    cd Data-Science-With-Python
 2. **Install all dependencies library used in the project**
    pip install numpy
