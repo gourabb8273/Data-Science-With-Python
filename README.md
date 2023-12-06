@@ -102,7 +102,7 @@ The code for predicting heart attack risk using a Decision Tree model can be fou
 #### Steps
 
 1. **Load and Process Data:**
-   - The notebook loads the `insurance_data.csv` dataset and performs necessary data processing steps.
+   - The notebook loads the `insurance_data.csv` dataset and performs necessary data pre-processing steps.
 
 2. **Split the Data:**
    - The data is split into an 80% training dataset and a 20% test dataset.
